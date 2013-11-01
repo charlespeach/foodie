@@ -1,3 +1,5 @@
+require 'foodie'
+
 describe Foodie::Food do
   it "broccoli is gross" do
     Foodie::Food.portray("Broccoli").should eq("Gross!")
